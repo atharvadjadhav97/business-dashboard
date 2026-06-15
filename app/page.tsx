@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { Building2, Hammer, Store, WalletCards, ClipboardCheck } from "lucide-react";
+import {
+  Building2,
+  Hammer,
+  Store,
+  WalletCards,
+  ClipboardCheck,
+  CalendarCheck,
+} from "lucide-react";
 
 const modules = [
   {
@@ -7,6 +14,12 @@ const modules = [
     description: "One place to track all businesses, alerts, money, and operations.",
     href: "/dashboard",
     icon: Building2,
+  },
+  {
+    title: "Owner Daily Snapshot",
+    description: "Morning summary of alerts, payments, operations, and action items.",
+    href: "/owner-daily-snapshot",
+    icon: CalendarCheck,
   },
   {
     title: "Construction",
