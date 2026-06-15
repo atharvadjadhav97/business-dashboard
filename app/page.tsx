@@ -7,6 +7,7 @@ import {
   ClipboardCheck,
   CalendarCheck,
   Calculator,
+  Sparkles,
 } from "lucide-react";
 
 const modules = [
@@ -23,6 +24,13 @@ const modules = [
       "Morning summary of alerts, payments, operations, and action items.",
     href: "/owner-daily-snapshot",
     icon: CalendarCheck,
+  },
+  {
+    title: "Demo Value",
+    description:
+      "Show the business value, before-and-after process, roadmap, and deal paths.",
+    href: "/demo-value",
+    icon: Sparkles,
   },
   {
     title: "Construction",
